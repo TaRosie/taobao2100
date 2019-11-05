@@ -1,0 +1,47 @@
+.App {
+  background-image: url("https://bit.ly/2CdW1th");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App h1{
+  font-size: 50px;
+  font-family: cursive;
+}
+
+.product {
+  background: white;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 1300px;
+  height: 200px;
+  margin: 25px;
+}
+
+.product img{
+  width: 200px;
+}
+
+.product-title{
+  flex: 0 0 25%;
+  font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+.product-description{
+  flex: 0 0 50%;
+  font-family: Georgia,'times new roman',times,serif;
+  font-size: 25px;
+}
+
+.product-price {
+  flex: 20 0 5%;
+  font-size: 30px;
+  color: hotpink;
+  text-align: center;
+}
